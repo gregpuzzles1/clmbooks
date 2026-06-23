@@ -60,7 +60,7 @@
 
     {{/* Theme attribution */}}
     {{ if .Site.Params.footer.showThemeAttribution | default true }}
-      <p class="text-xs text-neutral-500 dark:text-neutral-400 sm:ml-auto sm:text-right">
+      <p class="text-xs text-neutral-500 dark:text-neutral-400 text-right" style="margin-left: auto;">
         {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
           href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
         }}
