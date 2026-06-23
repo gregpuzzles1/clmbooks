@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">CLM Books site logo</title>
+  <desc id="desc">A blue and gold Christian logo with a cross rising from an open book inside a map pin.</desc>
+  <defs>
+    <linearGradient id="goldGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff8dc"/>
+      <stop offset="55%" stop-color="#ffe6a3"/>
+      <stop offset="100%" stop-color="#fffdf7"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="42%" r="52%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="68%" stop-color="#fffdf8"/>
+      <stop offset="100%" stop-color="#f5f8ff"/>
+    </radialGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#0d2f6e" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <path d="M160 24C104 24 58 69 58 126c0 26 11 50 29 69l73 101 73-101c18-19 29-43 29-69 0-57-46-102-102-102Z" fill="#ffffff" stroke="#11367b" stroke-width="10" filter="url(#softShadow)"/>
+  <circle cx="160" cy="126" r="87" fill="url(#halo)" stroke="#d88c10" stroke-width="2.6"/>
+  <circle cx="160" cy="126" r="96" fill="none" stroke="#d88c10" stroke-width="2"/>
+
+  <g stroke="#d88c10" stroke-width="1.4" stroke-linecap="round" opacity="0.95">
+    <line x1="160" y1="70" x2="160" y2="46"/>
+    <line x1="182" y1="76" x2="197" y2="56"/>
+    <line x1="138" y1="76" x2="123" y2="56"/>
+    <line x1="201" y1="93" x2="222" y2="79"/>
+    <line x1="119" y1="93" x2="98" y2="79"/>
+    <line x1="211" y1="118" x2="237" y2="113"/>
+    <line x1="109" y1="118" x2="83" y2="113"/>
+    <line x1="205" y1="144" x2="228" y2="155"/>
+    <line x1="115" y1="144" x2="92" y2="155"/>
+    <line x1="191" y1="165" x2="208" y2="184"/>
+    <line x1="129" y1="165" x2="112" y2="184"/>
+  </g>
+
+  <g>
+    <path d="M151 87h18v30h30v18h-30v68h-18v-68h-30v-18h30Z" fill="#11367b"/>
+    <path d="M151 87h18v30h30v18h-30v68h-18v-68h-30v-18h30Z" fill="none" stroke="#d88c10" stroke-width="2.8"/>
+    <path d="M160 205c-17-23-35-34-54-34-10 0-19 3-28 8l-7 4 16 22c8-4 14-6 21-6 18 0 34 9 52 31 18-22 34-31 52-31 7 0 13 2 21 6l16-22-7-4c-9-5-18-8-28-8-19 0-37 11-54 34Z" fill="url(#goldGlow)"/>
+    <path d="M79 183c20-4 40-1 61 7 7 3 14 8 20 14 6-6 13-11 20-14 21-8 41-11 61-7" fill="none" stroke="#11367b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M86 188c18-2 36 0 53 6 8 3 15 7 21 13 6-6 13-10 21-13 17-6 35-8 53-6" fill="none" stroke="#d88c10" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M95 196c14-1 28 1 41 5 9 3 17 8 24 16 7-8 15-13 24-16 13-4 27-6 41-5" fill="none" stroke="#d88c10" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+    <path d="M160 199v18" fill="none" stroke="#11367b" stroke-width="2.8" stroke-linecap="round"/>
+  </g>
+</svg>
