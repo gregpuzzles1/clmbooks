@@ -16,6 +16,7 @@ enableStructuredBreadcrumbs = false
 # enableStyledScrollbar = true # disable to use native scrollbar style (defaults to true)
 
 replyByEmail = false
+copyright = "&copy; { year } Christian Living Ministries"
 
 # mainSections = ["section1", "section2"]
 # robots = ""

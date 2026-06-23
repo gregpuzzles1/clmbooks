@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 1
-title = "My New Hugo Project"
+title = "Christian Living Ministries Books"
 
 [params]
   displayName = "EN"
