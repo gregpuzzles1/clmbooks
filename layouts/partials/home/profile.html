@@ -40,7 +40,7 @@
       {{ partialCached "author-links.html" . }}
     </div>
   </header>
-  <section class="prose dark:prose-invert w-full text-left">{{ .Content }}</section>
+  <section class="homepage-content prose dark:prose-invert w-full max-w-none self-stretch text-left">{{ .Content }}</section>
 </article>
 <section>
   {{ partial "recent-articles/main.html" . }}
