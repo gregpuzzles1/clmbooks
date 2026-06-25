@@ -6,3 +6,45 @@
 .homepage-content h2 {
   text-align: center;
 }
+
+section.prose:has(.rl2-breakout) {
+  max-width: 100% !important;
+  width: 100%;
+}
+
+section.prose:has(.rl2-breakout) > .min-w-0.min-h-0.max-w-prose.w-full {
+  max-width: 100% !important;
+  width: 100% !important;
+  flex: 1 1 100%;
+}
+
+section.prose:has(.rl2-breakout) + section.mt-10.prose {
+  display: none;
+}
+
+.rl2-breakout {
+  width: 100%;
+  max-width: 1024px !important;
+  margin: 0 auto;
+}
+
+.rl2-grid {
+  width: 100%;
+  max-width: 100% !important;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.rl2-card img {
+  height: 330px;
+}
+
+@media (max-width: 1024px) {
+  .rl2-breakout {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  .rl2-card img {
+    height: 360px;
+  }
+}
