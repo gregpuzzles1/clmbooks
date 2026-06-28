@@ -10,7 +10,7 @@
 .rl2-single-card .rl2-links a:hover, .rl2-single-card .rl2-links a:focus-visible { text-decoration: underline; }
 .rl2-single-card .rl2-link-disabled { color: rgb(var(--color-primary-500)); opacity: 0.6; cursor: default; }
 </style>
-{{ $overviewURL := printf "/%s/" .Page.Section | relURL }}
+{{ $overviewURL := printf "%s/" .Page.Section | absURL }}
 <div class="rl2-single-card">
 	<article class="rl2-card">
 		<div class="rl2-meta">
