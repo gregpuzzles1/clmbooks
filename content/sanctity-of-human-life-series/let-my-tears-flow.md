@@ -2,7 +2,7 @@
 title = "Let My Tears Flow"
 draft = false
 date = 2026-06-25
-author = "Ron Christian"
+author = "Ron G. Christian"
 showTaxonomies = true
 showTags = true
 showCategories = false
@@ -13,7 +13,7 @@ tags = ["Grief", "Tears", "Comfort", "Suffering", "Repentance", "Forgiveness", "
 
 **PDF Title:** *Let My Tears Flow*
 
-**Author:** Ron Christian
+**Author:** Ron G. Christian
 
 ## Summary
 

@@ -10,12 +10,13 @@
 .rl2-single-card .rl2-links a:hover, .rl2-single-card .rl2-links a:focus-visible { text-decoration: underline; }
 .rl2-single-card .rl2-link-disabled { color: rgb(var(--color-primary-500)); opacity: 0.6; cursor: default; }
 </style>
+{{ $overviewURL := printf "/%s/" .Page.Section | relURL }}
 <div class="rl2-single-card">
 	<article class="rl2-card">
 		<div class="rl2-meta">
 			<h3>Book Actions</h3>
 			<p>Quick links for this booklet and the full series overview.</p>
-			<p class="rl2-links"><span class="rl2-link-disabled">View PDF</span> | <span class="rl2-link-disabled">Download PDF</span> | <a href="/clmbooks/sanctity-of-human-life-series/">Return to Group Overview</a></p>
+			<p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span> | <a href="{{ $overviewURL }}">Return to Group Overview</a></p>
 		</div>
 	</article>
 </div>

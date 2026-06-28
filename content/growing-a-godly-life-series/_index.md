@@ -1,6 +1,9 @@
 +++
 title = "Growing a Godly Life Series"
 draft = false
+
+[cascade]
+	layoutBackgroundHeaderSpace = false
 +++
 
 <style>
@@ -25,56 +28,56 @@ draft = false
 <div class="rl2-breakout">
 	<div class="rl2-grid">
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/01%20Encountering%20the%20Living%20God.jpg" alt="Cover of Encountering the Living God" loading="lazy">
-			<div class="rl2-meta"><h3>1 Encountering the Living God</h3><p><strong>Pages:</strong> 115</p><p><strong>Size:</strong> 3.09 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/01 Encountering the Living God.jpg" >}}" alt="Cover of Encountering the Living God" loading="lazy">
+			<div class="rl2-meta"><h3>1 Encountering the Living God</h3><p><strong>Pages:</strong> 115</p><p><strong>Size:</strong> 3.09 MB</p><p class="rl2-links"><a href="{{< relref "encountering-the-living-god.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/02%20Practicing%20the%20Means%20of%20Grace.jpg" alt="Cover of Practicing the Means of Grace" loading="lazy">
-			<div class="rl2-meta"><h3>2 Practicing the Means of Grace</h3><p><strong>Pages:</strong> 88</p><p><strong>Size:</strong> 2.42 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/02 Practicing the Means of Grace.jpg" >}}" alt="Cover of Practicing the Means of Grace" loading="lazy">
+			<div class="rl2-meta"><h3>2 Practicing the Means of Grace</h3><p><strong>Pages:</strong> 88</p><p><strong>Size:</strong> 2.42 MB</p><p class="rl2-links"><a href="{{< relref "practicing-the-means-of-grace.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/03%20Pursuing%20a%20Holy%20Lifestyle.jpg" alt="Cover of Pursuing a Holy Lifestyle" loading="lazy">
-			<div class="rl2-meta"><h3>3 Pursuing a Holy Lifestyle</h3><p><strong>Pages:</strong> 85</p><p><strong>Size:</strong> 1.28 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/03 Pursuing a Holy Lifestyle.jpg" >}}" alt="Cover of Pursuing a Holy Lifestyle" loading="lazy">
+			<div class="rl2-meta"><h3>3 Pursuing a Holy Lifestyle</h3><p><strong>Pages:</strong> 85</p><p><strong>Size:</strong> 1.28 MB</p><p class="rl2-links"><a href="{{< relref "pursuing-a-holy-lifestyle.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/04%20Battling%20Life%27s%20Multiple%20Temptations.jpg" alt="Cover of Battling Life's Multiple Temptations" loading="lazy">
-			<div class="rl2-meta"><h3>4 Battling Life's Multiple Temptations</h3><p><strong>Pages:</strong> 89</p><p><strong>Size:</strong> 1.49 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/04 Battling Life's Multiple Temptations.jpg" >}}" alt="Cover of Battling Life's Multiple Temptations" loading="lazy">
+			<div class="rl2-meta"><h3>4 Handling Life's Temptations</h3><p><strong>Pages:</strong> 89</p><p><strong>Size:</strong> 1.49 MB</p><p class="rl2-links"><a href="{{< relref "handling-lifes-temptations.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/05%20Practicing%20the%20Presence%20of%20God.jpg" alt="Cover of Practicing the Presence of God" loading="lazy">
-			<div class="rl2-meta"><h3>5 Practicing the Presence of God</h3><p><strong>Pages:</strong> 86</p><p><strong>Size:</strong> 2.21 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/05 Practicing the Presence of God.jpg" >}}" alt="Cover of Practicing the Presence of God" loading="lazy">
+			<div class="rl2-meta"><h3>5 Practicing the Presence of God</h3><p><strong>Pages:</strong> 86</p><p><strong>Size:</strong> 2.21 MB</p><p class="rl2-links"><a href="{{< relref "practicing-the-presence-of-god.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/06%20Overcoming%20Obstacles%20to%20Christian%20Growth.jpg" alt="Cover of Overcoming Obstacles to Christian Growth" loading="lazy">
-			<div class="rl2-meta"><h3>6 Overcoming Obstacles to Christian Growth</h3><p><strong>Pages:</strong> 92</p><p><strong>Size:</strong> 2.57 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/06 Overcoming Obstacles to Christian Growth.jpg" >}}" alt="Cover of Overcoming Obstacles to Christian Growth" loading="lazy">
+			<div class="rl2-meta"><h3>6 Overcoming Obstacles to Christian Growth</h3><p><strong>Pages:</strong> 92</p><p><strong>Size:</strong> 2.57 MB</p><p class="rl2-links"><a href="{{< relref "overcoming-obstacles-to-christian-growth.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/07%20Refocusing%20on%20Lifes%20Priorities.jpg" alt="Cover of Refocusing on Lifes Priorities" loading="lazy">
-			<div class="rl2-meta"><h3>7 Refocusing on Lifes Priorities</h3><p><strong>Pages:</strong> 91</p><p><strong>Size:</strong> 2.50 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/07 Refocusing on Lifes Priorities.jpg" >}}" alt="Cover of Refocusing on Lifes Priorities" loading="lazy">
+			<div class="rl2-meta"><h3>7 Refocusing on Lifes Priorities</h3><p><strong>Pages:</strong> 91</p><p><strong>Size:</strong> 2.50 MB</p><p class="rl2-links"><a href="{{< relref "refocusing-on-lifes-priorities.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/08%20Appropriating%20the%20Power%20of%20Prayer%20and%20Faith.jpg" alt="Cover of Appropriating the Power of Prayer and Faith" loading="lazy">
-			<div class="rl2-meta"><h3>8 Appropriating the Power of Prayer and Faith</h3><p><strong>Pages:</strong> 82</p><p><strong>Size:</strong> 2.39 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/08 Appropriating the Power of Prayer and Faith.jpg" >}}" alt="Cover of Appropriating the Power of Prayer and Faith" loading="lazy">
+			<div class="rl2-meta"><h3>8 Appropriating the Power of Prayer and Faith</h3><p><strong>Pages:</strong> 82</p><p><strong>Size:</strong> 2.39 MB</p><p class="rl2-links"><a href="{{< relref "appropriating-the-power-of-prayer-and-faith.md" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/09%20Mainting%20Life%27s%20Various%20Stewardship.jpg" alt="Cover of Maintaining Life's Various Stewardship" loading="lazy">
-			<div class="rl2-meta"><h3>9 Mainting Life's Various Stewardship</h3><p><strong>Pages:</strong> 86</p><p><strong>Size:</strong> 1.53 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/09 Mainting Life's Various Stewardship.jpg" >}}" alt="Cover of Maintaining Life's Various Stewardship" loading="lazy">
+			<div class="rl2-meta"><h3>9 Managing Life's Various Stewardships</h3><p><strong>Pages:</strong> 86</p><p><strong>Size:</strong> 1.53 MB</p><p class="rl2-links"><a href="{{< relurl "/growing-a-godly-life-series/managing-lifes-various-stewardships/" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/10%20Rescuing%20the%20Lost%20Ones.jpg" alt="Cover of Rescuing the Lost Ones" loading="lazy">
-			<div class="rl2-meta"><h3>10 Rescuing the Lost Ones</h3><p><strong>Pages:</strong> 96</p><p><strong>Size:</strong> 2.85 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/10 Rescuing the Lost Ones.jpg" >}}" alt="Cover of Rescuing the Lost Ones" loading="lazy">
+			<div class="rl2-meta"><h3>10 Rescuing the Lost Ones</h3><p><strong>Pages:</strong> 96</p><p><strong>Size:</strong> 2.85 MB</p><p class="rl2-links"><a href="{{< relurl "/growing-a-godly-life-series/rescuing-the-lost-ones/" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/11%20Reaching%20Out%20in%20Holy%20Love.jpg" alt="Cover of Reaching Out in Holy Love" loading="lazy">
-			<div class="rl2-meta"><h3>11 Reaching Out in Holy Love</h3><p><strong>Pages:</strong> 85</p><p><strong>Size:</strong> 1.36 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/11 Reaching Out in Holy Love.jpg" >}}" alt="Cover of Reaching Out in Holy Love" loading="lazy">
+			<div class="rl2-meta"><h3>11 Reaching Out in Holy Love</h3><p><strong>Pages:</strong> 85</p><p><strong>Size:</strong> 1.36 MB</p><p class="rl2-links"><a href="{{< relurl "/growing-a-godly-life-series/reaching-out-in-holy-love/" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/12%20Surviving%20Lifes%20Hard%20Trials.jpg" alt="Cover of Surviving Lifes Hard Trials" loading="lazy">
-			<div class="rl2-meta"><h3>12 Surviving Lifes Hard Trials</h3><p><strong>Pages:</strong> 90</p><p><strong>Size:</strong> 2.57 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/12 Surviving Lifes Hard Trials.jpg" >}}" alt="Cover of Surviving Lifes Hard Trials" loading="lazy">
+			<div class="rl2-meta"><h3>12 Surviving Lifes Hard Trials</h3><p><strong>Pages:</strong> 90</p><p><strong>Size:</strong> 2.57 MB</p><p class="rl2-links"><a href="{{< relurl "/growing-a-godly-life-series/surviving-lifes-hard-trials/" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="/clmbooks/images/More%20Devotional%20Books/13%20Maintaining%20the%20Life%20of%20Faith.jpg" alt="Cover of Maintaining the Life of Faith" loading="lazy">
-			<div class="rl2-meta"><h3>13 Maintaining the Life of Faith</h3><p><strong>Pages:</strong> 123</p><p><strong>Size:</strong> 3.88 MB</p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
+			<img src="{{< relurl "/images/More Devotional Books/13 Maintaining the Life of Faith.jpg" >}}" alt="Cover of Maintaining the Life of Faith" loading="lazy">
+			<div class="rl2-meta"><h3>13 Maintaining the Life of Faith</h3><p><strong>Pages:</strong> 123</p><p><strong>Size:</strong> 3.88 MB</p><p class="rl2-links"><a href="{{< relurl "/growing-a-godly-life-series/maintaining-the-life-of-faith/" >}}">Learn More</a></p><p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span></p></div>
 		</article>
 	</div>
 </div>

@@ -2,7 +2,7 @@
 title = "Who Cares For The Unborn Baby?"
 draft = false
 date = 2026-06-25
-author = "Ron Christian"
+author = "Ron G. Christian"
 showTaxonomies = true
 showTags = true
 showCategories = false
@@ -13,7 +13,7 @@ tags = ["Unborn baby", "Sanctity of life", "Abortion", "Human dignity", "Image o
 
 **PDF Title:** *Who Cares for the Unborn Baby?*
 
-**Author:** Ron Christian
+**Author:** Ron G. Christian
 
 ## Summary
 

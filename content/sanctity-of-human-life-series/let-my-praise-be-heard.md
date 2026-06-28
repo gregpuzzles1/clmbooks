@@ -2,7 +2,7 @@
 title = "Let My Praise Be Heard!"
 draft = false
 date = 2026-06-25
-author = "Ron Christian"
+author = "Ron G. Christian"
 showTaxonomies = true
 showTags = true
 showCategories = false
@@ -13,7 +13,7 @@ tags = ["Gratitude", "Praise", "Thanksgiving", "Humility", "Faith", "Suffering",
 
 **PDF Title:** *Let My Praise Be Heard!*
 
-**Author:** Ron Christian
+**Author:** Ron G. Christian
 
 ## Summary
 
