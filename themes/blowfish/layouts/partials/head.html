@@ -113,6 +113,11 @@
   {{ end }}
 
   {{ $alg := .Site.Params.fingerprintAlgorithm | default "sha512" }}
+  {{ $serverBasePath := "" }}
+  {{ if hugo.IsServer }}
+    {{ $baseURLParts := urls.Parse site.BaseURL }}
+    {{ $serverBasePath = strings.TrimSuffix "/" $baseURLParts.Path }}
+  {{ end }}
 
   {{/* CSS */}}
   {{ $cssResources := slice }}
@@ -127,35 +132,55 @@
     {{ $cssResources = $cssResources | append (resources.Get "lib/zoom/style.css") }}
   {{ end }}
   {{ $bundleCSS := $cssResources | resources.Concat "css/main.bundle.css" | resources.Minify | resources.Fingerprint $alg }}
+  {{ $bundleCSSHref := $bundleCSS.RelPermalink }}
+  {{ if and hugo.IsServer $serverBasePath (strings.HasPrefix $bundleCSSHref $serverBasePath) }}
+    {{ $bundleCSSHref = strings.TrimPrefix $serverBasePath $bundleCSSHref }}
+  {{ end }}
   <link
     type="text/css"
     rel="stylesheet"
-    href="{{ $bundleCSS.RelPermalink }}"
+    href="{{ $bundleCSSHref }}"
     integrity="{{ $bundleCSS.Data.Integrity }}">
 
   {{/* JS loaded immediately */}}
   {{ $jsAppearance := resources.Get "js/appearance.js" | resources.ExecuteAsTemplate "js/appearance.js" . | resources.Minify | resources.Fingerprint $alg }}
+  {{ $jsAppearanceSrc := $jsAppearance.RelPermalink }}
+  {{ if and hugo.IsServer $serverBasePath (strings.HasPrefix $jsAppearanceSrc $serverBasePath) }}
+    {{ $jsAppearanceSrc = strings.TrimPrefix $serverBasePath $jsAppearanceSrc }}
+  {{ end }}
   <script
     type="text/javascript"
-    src="{{ $jsAppearance.RelPermalink }}"
+    src="{{ $jsAppearanceSrc }}"
     integrity="{{ $jsAppearance.Data.Integrity }}"></script>
   {{ $enableA11y := .Site.Params.enableA11y | default false }}
   {{ if $enableA11y }}
     {{ $jsA11y := resources.Get "js/a11y.js" | resources.Minify | resources.Fingerprint $alg }}
-    <script src="{{ $jsA11y.RelPermalink }}" integrity="{{ $jsA11y.Data.Integrity }}"></script>
+    {{ $jsA11ySrc := $jsA11y.RelPermalink }}
+    {{ if and hugo.IsServer $serverBasePath (strings.HasPrefix $jsA11ySrc $serverBasePath) }}
+      {{ $jsA11ySrc = strings.TrimPrefix $serverBasePath $jsA11ySrc }}
+    {{ end }}
+    <script src="{{ $jsA11ySrc }}" integrity="{{ $jsA11y.Data.Integrity }}"></script>
   {{ end }}
   {{ $showZenMode := .Params.showZenMode | default (.Site.Params.article.showZenMode | default false) }}
   {{ $shouldIncludeZenMode := or $enableA11y $showZenMode }}
   {{ if and .IsPage $shouldIncludeZenMode }}
     {{ $jsZenMode := resources.Get "js/zen-mode.js" | resources.Minify | resources.Fingerprint $alg }}
+    {{ $jsZenModeSrc := $jsZenMode.RelPermalink }}
+    {{ if and hugo.IsServer $serverBasePath (strings.HasPrefix $jsZenModeSrc $serverBasePath) }}
+      {{ $jsZenModeSrc = strings.TrimPrefix $serverBasePath $jsZenModeSrc }}
+    {{ end }}
     <script
       type="text/javascript"
-      src="{{ $jsZenMode.RelPermalink }}"
+      src="{{ $jsZenModeSrc }}"
       integrity="{{ $jsZenMode.Data.Integrity }}"></script>
   {{ end }}
   {{ if not .Site.Params.disableImageZoom | default true }}
     {{ $zoomJS := resources.Get "lib/zoom/zoom.min.umd.js" | resources.Fingerprint $alg }}
-    <script src="{{ $zoomJS.RelPermalink }}" integrity="{{ $zoomJS.Data.Integrity }}"></script>
+    {{ $zoomJSSrc := $zoomJS.RelPermalink }}
+    {{ if and hugo.IsServer $serverBasePath (strings.HasPrefix $zoomJSSrc $serverBasePath) }}
+      {{ $zoomJSSrc = strings.TrimPrefix $serverBasePath $zoomJSSrc }}
+    {{ end }}
+    <script src="{{ $zoomJSSrc }}" integrity="{{ $zoomJS.Data.Integrity }}"></script>
   {{ end }}
 
   {{/* JS deferred */}}
@@ -179,11 +204,15 @@
   {{ $jsResources = $jsResources | append (resources.Get "js/email.js") }}
   {{ if $jsResources }}
     {{ $bundleJS := $jsResources | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint $alg }}
+    {{ $bundleJSSrc := $bundleJS.RelPermalink }}
+    {{ if and hugo.IsServer $serverBasePath (strings.HasPrefix $bundleJSSrc $serverBasePath) }}
+      {{ $bundleJSSrc = strings.TrimPrefix $serverBasePath $bundleJSSrc }}
+    {{ end }}
     <script
       defer
       type="text/javascript"
       id="script-bundle"
-      src="{{ $bundleJS.RelPermalink }}"
+      src="{{ $bundleJSSrc }}"
       integrity="{{ $bundleJS.Data.Integrity }}"
       data-copy="{{ i18n "code.copy" }}"
       data-copied="{{ i18n "code.copied" }}"></script>
