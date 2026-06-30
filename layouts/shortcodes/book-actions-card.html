@@ -11,12 +11,13 @@
 .rl2-single-card .rl2-link-disabled { color: rgb(var(--color-primary-500)); opacity: 0.6; cursor: default; }
 </style>
 {{ $overviewURL := printf "%s/" .Page.Section | absURL }}
+{{ $pdfURL := .Page.Params.pdf_url }}
 <div class="rl2-single-card">
 	<article class="rl2-card">
 		<div class="rl2-meta">
 			<h3>Book Actions</h3>
 			<p>Quick links for this booklet and the full series overview.</p>
-			<p class="rl2-links"><span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span> | <a href="{{ $overviewURL }}">Return to Group Overview</a></p>
+			<p class="rl2-links">{{ if $pdfURL }}<a href="{{ $pdfURL }}" target="_blank" rel="noopener noreferrer">View</a> | <a href="{{ $pdfURL }}" download>Download</a>{{ else }}<span class="rl2-link-disabled">View</span> | <span class="rl2-link-disabled">Download</span>{{ end }} | <a href="{{ $overviewURL }}">Return to Group Overview</a></p>
 		</div>
 	</article>
 </div>
