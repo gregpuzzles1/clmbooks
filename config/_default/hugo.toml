@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://gregpuzzles1.github.io/clmbooks/"
+baseURL = "https://clmbooks.org"
 defaultContentLanguage = "en"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
