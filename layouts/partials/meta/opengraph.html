@@ -1,0 +1,12 @@
+{{ $description := .Params.Summary | default .Params.Description | default .Site.Params.description }}
+{{ $type := cond .IsPage "article" "website" }}
+<meta property="og:site_name" content="{{ .Site.Title | emojify }}">
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title | emojify }}{{ else }}{{ .Title | plainify | emojify }}{{ end }}">
+<meta property="og:type" content="{{ $type }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with $description }}
+  <meta property="og:description" content="{{ . | plainify }}">
+{{ end }}
+{{ with .Site.Language.Params.htmlCode | default .Site.Language.Locale }}
+  <meta property="og:locale" content="{{ . }}">
+{{ end }}
