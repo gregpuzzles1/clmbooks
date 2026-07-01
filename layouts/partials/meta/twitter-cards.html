@@ -1,6 +1,15 @@
 {{ $description := .Params.Summary | default .Params.Description | default .Site.Params.description }}
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title | emojify }}{{ else }}{{ .Title | plainify | emojify }}{{ end }}">
+{{ $title := cond .IsHome (.Site.Params.seo.homepageTitle | default (.Site.Title | emojify)) (.Title | plainify | emojify) }}
+{{ $socialImage := .Site.Params.seo.socialImage }}
+<meta name="twitter:card" content="{{ if $socialImage }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ $title }}">
 {{ with $description }}
   <meta name="twitter:description" content="{{ . | plainify }}">
+{{ end }}
+{{ with $socialImage }}
+  <meta name="twitter:image" content="{{ . | absURL }}">
+  {{ with $.Site.Params.seo.socialImageAlt }}
+    <meta name="twitter:image:alt" content="{{ . }}">
+  {{ end }}
 {{ end }}

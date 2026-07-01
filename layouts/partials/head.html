@@ -8,8 +8,9 @@
   <meta name="theme-color">
 
   {{ if .IsHome }}
-    <title>{{ .Site.Title | emojify }}</title>
-    <meta name="title" content="{{ .Site.Title | emojify }}">
+    {{ $homeTitle := .Site.Params.seo.homepageTitle | default (.Site.Title | emojify) }}
+    <title>{{ $homeTitle }}</title>
+    <meta name="title" content="{{ $homeTitle }}">
   {{ else }}
     <title>{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}</title>
     <meta name="title" content="{{ .Title | plainify | emojify }} &middot; {{ .Site.Title | emojify }}">

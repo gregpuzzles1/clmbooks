@@ -8,6 +8,7 @@
 colorScheme = "blowfish"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
+description = "Free Christian devotional books from Christian Living Ministries in Fort Collins, Colorado. Read online or download PDF books."
 
 enableA11y = false
 enableSearch = true
@@ -47,6 +48,12 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [seo]
 # metaDescriptionOrder = ["summary", "description", "site"] # Controls the fallback order for the HTML meta description. Valid values are "summary", "description", and "site".
+  homepageTitle = "CLMBooks.org | Free Christian Devotional Books"
+  socialImage = "/social-preview.png"
+  socialImageType = "image/png"
+  socialImageWidth = 1280
+  socialImageHeight = 672
+  socialImageAlt = "CLMBooks.org - Free Christian Devotional Books from Christian Living Ministries"
 
 [header]
   layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur

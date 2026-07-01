@@ -28,27 +28,27 @@ draft = false
 <div class="rl2-breakout">
 	<div class="rl2-grid">
 		<article class="rl2-card">
-			<img src="{{< relurl "/images/Sanctity of Human Life/Who-Cares-for-the-Unborn-Baby.jpg" >}}" alt="Cover of Who Cares for the Unborn Baby" loading="lazy">
+			<img src="/images/Sanctity of Human Life/Who-Cares-for-the-Unborn-Baby.jpg" alt="Cover of Who Cares for the Unborn Baby" loading="lazy">
 			<div class="rl2-meta"><h3>Who Cares for the Unborn Baby</h3><p><strong>Pages:</strong> 63</p><p><strong>Size:</strong> 7.63 MB</p><p class="rl2-links"><a href="{{< relref "who-cares-for-the-unborn-baby.md" >}}">Learn More</a></p><p class="rl2-links"><a href="https://pdfs.clmbooks.org/clmbooks/Who-Cares-for-the-Unborn-Baby.pdf" target="_blank" rel="noopener noreferrer">View</a> | <a href="https://pdfs.clmbooks.org/clmbooks/Who-Cares-for-the-Unborn-Baby.pdf" download>Download</a></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="{{< relurl "/images/Sanctity of Human Life/Let-My-Praises-Be-Heard.jpg" >}}" alt="Cover of Let My Praises Be Heard" loading="lazy">
+			<img src="/images/Sanctity of Human Life/Let-My-Praises-Be-Heard.jpg" alt="Cover of Let My Praises Be Heard" loading="lazy">
 			<div class="rl2-meta"><h3>Let My Praises Be Heard</h3><p><strong>Pages:</strong> 208</p><p><strong>Size:</strong> 1.07 MB</p><p class="rl2-links"><a href="{{< relref "let-my-praise-be-heard.md" >}}">Learn More</a></p><p class="rl2-links"><a href="https://pdfs.clmbooks.org/clmbooks/Let-My-Praises-Be-Heard.pdf" target="_blank" rel="noopener noreferrer">View</a> | <a href="https://pdfs.clmbooks.org/clmbooks/Let-My-Praises-Be-Heard.pdf" download>Download</a></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="{{< relurl "/images/Sanctity of Human Life/Let-My-Tears-Flow.jpg" >}}" alt="Cover of Let My Tears Flow" loading="lazy">
+			<img src="/images/Sanctity of Human Life/Let-My-Tears-Flow.jpg" alt="Cover of Let My Tears Flow" loading="lazy">
 			<div class="rl2-meta"><h3>Let My Tears Flow</h3><p><strong>Pages:</strong> 223</p><p><strong>Size:</strong> 1.42 MB</p><p class="rl2-links"><a href="{{< relref "let-my-tears-flow.md" >}}">Learn More</a></p><p class="rl2-links"><a href="https://pdfs.clmbooks.org/clmbooks/Let-My-Tears-Flow.pdf" target="_blank" rel="noopener noreferrer">View</a> | <a href="https://pdfs.clmbooks.org/clmbooks/Let-My-Tears-Flow.pdf" download>Download</a></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="{{< relurl "/images/Sanctity of Human Life/Let-My-Laughter-Resound.jpg" >}}" alt="Cover of Let My Laughter Resound" loading="lazy">
+			<img src="/images/Sanctity of Human Life/Let-My-Laughter-Resound.jpg" alt="Cover of Let My Laughter Resound" loading="lazy">
 			<div class="rl2-meta"><h3>Let My Laughter Resound</h3><p><strong>Pages:</strong> 138</p><p><strong>Size:</strong> 1.15 MB</p><p class="rl2-links"><a href="{{< relref "let-my-laughter-resound.md" >}}">Learn More</a></p><p class="rl2-links"><a href="https://pdfs.clmbooks.org/clmbooks/Let-My-Laughter-Resound.pdf" target="_blank" rel="noopener noreferrer">View</a> | <a href="https://pdfs.clmbooks.org/clmbooks/Let-My-Laughter-Resound.pdf" download>Download</a></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="{{< relurl "/images/Sanctity of Human Life/Does-God-Love-All-or-Only-Some-Persons.jpg" >}}" alt="Cover of Does God Love All or Only Some Persons" loading="lazy">
+			<img src="/images/Sanctity of Human Life/Does-God-Love-All-or-Only-Some-Persons.jpg" alt="Cover of Does God Love All or Only Some Persons" loading="lazy">
 			<div class="rl2-meta"><h3>Does God Love All or Only Some Persons</h3><p><strong>Pages:</strong> 124</p><p><strong>Size:</strong> 0.62 MB</p><p class="rl2-links"><a href="{{< relref "does-god-love-all-or-only-some-persons.md" >}}">Learn More</a></p><p class="rl2-links"><a href="https://pdfs.clmbooks.org/clmbooks/Does-God-Love-All-or-Only-Some-Persons.pdf" target="_blank" rel="noopener noreferrer">View</a> | <a href="https://pdfs.clmbooks.org/clmbooks/Does-God-Love-All-or-Only-Some-Persons.pdf" download>Download</a></p></div>
 		</article>
 		<article class="rl2-card">
-			<img src="{{< relurl "/images/Sanctity of Human Life/Battle-Against-Humanisim.jpg" >}}" alt="Cover of Battle Against Humanisim" loading="lazy">
+			<img src="/images/Sanctity of Human Life/Battle-Against-Humanisim.jpg" alt="Cover of Battle Against Humanisim" loading="lazy">
 			<div class="rl2-meta"><h3>Battle Against Humanisim</h3><p><strong>Pages:</strong> 95</p><p><strong>Size:</strong> 0.76 MB</p><p class="rl2-links"><a href="{{< relref "battle-against-humanism.md" >}}">Learn More</a></p><p class="rl2-links"><a href="https://pdfs.clmbooks.org/clmbooks/Battle-Against-Humanisim.pdf" target="_blank" rel="noopener noreferrer">View</a> | <a href="https://pdfs.clmbooks.org/clmbooks/Battle-Against-Humanisim.pdf" download>Download</a></p></div>
 		</article>
 	</div>
