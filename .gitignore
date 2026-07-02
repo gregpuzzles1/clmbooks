@@ -9,3 +9,5 @@
 # OS files
 Thumbs.db
 .DS_Store
+
+# Keep generated local artifacts out of version control.
