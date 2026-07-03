@@ -188,3 +188,44 @@ section.prose:has(.rl2-breakout) + section.mt-10.prose {
     width: 100%;
   }
 }
+
+/* ── Series accordion ─────────────────────────────── */
+details.series-accordion {
+  background-color: #eff6ff; /* blue-50 */
+  border-color: #bfdbfe;     /* blue-200 */
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+details.series-accordion > summary {
+  background-color: #dbeafe; /* blue-100 */
+  color: #1e3a8a;            /* blue-900 */
+}
+
+details.series-accordion > .series-accordion-body {
+  color: #1e40af;            /* blue-800 */
+}
+
+.dark details.series-accordion {
+  background-color: #172554; /* blue-950 */
+  border-color: #1e40af;     /* blue-800 */
+}
+
+.dark details.series-accordion > summary {
+  background-color: #1e3a8a; /* blue-900 */
+  color: #eff6ff;            /* blue-100 */
+}
+
+.dark details.series-accordion > .series-accordion-body {
+  color: #bfdbfe;            /* blue-200 */
+}
+
+.dark details.series-accordion > .series-accordion-body a {
+  color: #93c5fd;            /* blue-300 */
+}
+
+details.series-accordion > .series-accordion-body a {
+  color: #1d4ed8;            /* blue-700 */
+}

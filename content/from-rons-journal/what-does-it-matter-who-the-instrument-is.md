@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "What Does it Matter Who the Instrument Is?"
 draft = false
 date = 2026-06-29
@@ -15,6 +15,18 @@ tags = ["Humility", "Christian service", "Body of Christ", "Spiritual gifts", "S
 **PDF Title:** *What Does it Matter Who the Instrument Is?*
 
 **Author:** Ron Christian
+
+{{< accordion mode="collapse" separated=true >}}
+  {{< accordionItem title="This book is part of a series." >}}
+<ul style="list-style:none; padding-left:0; margin:0;">
+<li>Book 1: <a href="/from-rons-journal/journal-entry/">Journal Entry</a></li>
+<li>Book 2: <a href="/from-rons-journal/turning-over-the-title-deed-to-christ/">Turning Over the Title Deed to Christ</a></li>
+<li>Book 3: This Book</li>
+<li>Book 4: <a href="/from-rons-journal/what-is-the-secret-to-marriage/">What is the Secret to Marriage</a></li>
+<li>Book 5: <a href="/from-rons-journal/will-there-be-many-few-or-no-one-in-hell/">Will There Be Many Few or No One in Hell</a></li>
+</ul>
+  {{< /accordionItem >}}
+{{< /accordion >}}
 
 ## Summary
 

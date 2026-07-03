@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "What is the Secret to Marriage?"
 draft = false
 date = 2026-06-29
@@ -15,6 +15,18 @@ tags = ["Marriage", "Agape love", "Christian humor", "Prayer", "Mutual service",
 **PDF Title:** *What is the Secret to Marriage?*
 
 **Author:** Ron Christian
+
+{{< accordion mode="collapse" separated=true >}}
+  {{< accordionItem title="This book is part of a series." >}}
+<ul style="list-style:none; padding-left:0; margin:0;">
+<li>Book 1: <a href="/from-rons-journal/journal-entry/">Journal Entry</a></li>
+<li>Book 2: <a href="/from-rons-journal/turning-over-the-title-deed-to-christ/">Turning Over the Title Deed to Christ</a></li>
+<li>Book 3: <a href="/from-rons-journal/what-does-it-matter-who-the-instrument-is/">What Does it Matter Who the Instrument Is</a></li>
+<li>Book 4: This Book</li>
+<li>Book 5: <a href="/from-rons-journal/will-there-be-many-few-or-no-one-in-hell/">Will There Be Many Few or No One in Hell</a></li>
+</ul>
+  {{< /accordionItem >}}
+{{< /accordion >}}
 
 ## Summary
 

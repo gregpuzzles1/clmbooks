@@ -1,4 +1,4 @@
-+++
+﻿+++
 title = "Let My Laughter Resound!"
 draft = false
 date = 2026-06-25
@@ -15,6 +15,19 @@ tags = ["Christian joy", "Wholesome humor", "Humility", "Self-forgetfulness", "J
 **PDF Title:** *Let My Laughter Resound!*
 
 **Author:** Ron G. Christian
+
+{{< accordion mode="collapse" separated=true >}}
+  {{< accordionItem title="This book is part of a series." >}}
+<ul style="list-style:none; padding-left:0; margin:0;">
+<li>Book 1: <a href="/sanctity-of-human-life-series/who-cares-for-the-unborn-baby/">Who Cares For The Unborn Baby?</a></li>
+<li>Book 2: <a href="/sanctity-of-human-life-series/let-my-praise-be-heard/">Let My Praise Be Heard!</a></li>
+<li>Book 3: <a href="/sanctity-of-human-life-series/let-my-tears-flow/">Let My Tears Flow</a></li>
+<li>Book 4: This Book</li>
+<li>Book 5: <a href="/sanctity-of-human-life-series/does-god-love-all-or-only-some-persons/">Does God Love All or Only Some Persons?</a></li>
+<li>Book 6: <a href="/sanctity-of-human-life-series/battle-against-humanism/">Battle Against Humanism!</a></li>
+</ul>
+  {{< /accordionItem >}}
+{{< /accordion >}}
 
 ## Summary
 
