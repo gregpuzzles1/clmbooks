@@ -6,6 +6,8 @@ draft = false
 	layoutBackgroundHeaderSpace = false
 +++
 
+The Growing Godly Life series is designed to be read and studied over the course of one year. With 13 books in the series, readers can move through the material at a steady pace by spending about four weeks with each book, completing the full series in 52 weeks. This approach allows time not only for reading, but also for reflection, prayer, and personal application. Readers are encouraged to take time with the discussion questions at the end of each chapter, using them to review meaningful passages, consider the biblical truths presented, and apply the lessons to daily life.
+
 <style>
 .min-w-0.min-h-0.max-w-fit:has(.rl2-breakout) { max-width: 100% !important; width: 100%; }
 .article-content:has(.rl2-breakout) { max-width: 100% !important; }

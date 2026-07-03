@@ -28,3 +28,7 @@ of Fort Collins, Colorado. The series of 13 booklets, entitled "Growing A Godly 
 ## There are no costs to you as user of any of these many books.
 
 It is the pleasure of "CHRISTIAN LIVING MINISTRIES" to offer these books freely, and without any financial obligation. Pastor Christian believes that God has given him the ministry of writing and distribution of helpful literature, devotional, and practical writings.
+
+{{< alert "envelope" >}}
+If you have any questions or comments, please contact Greg, the website administrator, at [gregpuzzles1@gmail.com](mailto:gregpuzzles1@gmail.com). Greg will also make sure that Ron gets any comments or messages addressed to him.
+{{< /alert >}}
