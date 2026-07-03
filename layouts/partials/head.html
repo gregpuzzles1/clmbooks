@@ -210,4 +210,7 @@
       data-copy="{{ i18n "code.copy" }}"
       data-copied="{{ i18n "code.copied" }}"></script>
   {{ end }}
+  {{ if hugo.IsProduction }}
+    {{ partial "analytics/main.html" . }}
+  {{ end }}
 </head>
