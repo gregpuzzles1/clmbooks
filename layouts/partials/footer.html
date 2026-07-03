@@ -33,42 +33,53 @@
       </nav>
     {{ end }}
   {{ end }}
-  <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+  <div class="flex flex-col gap-4">
     {{/* Copyright and license */}}
     {{ if .Site.Params.footer.showCopyright | default true }}
       <div class="text-sm text-neutral-500 dark:text-neutral-400">
-        <p>
-          {{- with replace .Site.Params.copyright "{ year }" now.Year }}
-            {{ . | markdownify }}
-          {{- else }}
-            &copy;
-            {{ now.Format "2006" }}
-            {{ .Site.Params.Author.name | markdownify }}
-          {{- end }}
-        </p>
-        <p class="mt-1">
+        <div class="mb-6">
           <a
-            class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-            href="https://creativecommons.org/licenses/by-sa/4.0/"
-            target="_blank"
-            rel="noopener noreferrer">
-            CC BY-SA 4.0
+            class="inline-block text-base font-bold hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="{{ "tags/" | relLangURL }}">
+            Tags
           </a>
-        </p>
-      </div>
-    {{ end }}
+        </div>
+        <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <p>
+              {{- with replace .Site.Params.copyright "{ year }" now.Year }}
+                {{ . | markdownify }}
+              {{- else }}
+                &copy;
+                {{ now.Format "2006" }}
+                {{ .Site.Params.Author.name | markdownify }}
+              {{- end }}
+            </p>
+            <p class="mt-1">
+              <a
+                class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank"
+                rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </p>
+          </div>
 
-    {{/* Theme attribution */}}
-    {{ if .Site.Params.footer.showThemeAttribution | default true }}
-      <p class="text-xs text-neutral-500 dark:text-neutral-400 text-right" style="margin-left: auto;">
-        {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
-        }}
-        {{ $blowfish := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>`
-        }}
-        {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
-      </p>
+          {{/* Theme attribution */}}
+          {{ if .Site.Params.footer.showThemeAttribution | default true }}
+            <p class="text-xs text-neutral-500 dark:text-neutral-400 text-right sm:pt-1" style="margin-left: auto;">
+              {{ $hugo := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+                href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>`
+              }}
+              {{ $blowfish := printf `<a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+                href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>`
+              }}
+              {{ i18n "footer.powered_by" (dict "Hugo" $hugo "Theme" $blowfish) | safeHTML }}
+            </p>
+          {{ end }}
+        </div>
+      </div>
     {{ end }}
   </div>
   {{ if not .Site.Params.disableImageZoom | default true }}
