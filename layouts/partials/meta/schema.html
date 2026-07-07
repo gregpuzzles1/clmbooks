@@ -1,0 +1,77 @@
+{{/*
+  Schema.org JSON-LD structured data.
+  - Homepage        → WebSite + Organization (@graph)
+  - Individual page → Book (if pdf_url is set) or Article
+  - Section page    → CollectionPage
+*/}}
+{{ $siteURL := .Site.BaseURL | strings.TrimSuffix "/" }}
+{{ $orgName := "Christian Living Ministries" }}
+{{ $description := .Params.Summary | default .Params.Description | default .Site.Params.description | plainify }}
+{{ $org := dict
+  "@type" "Organization"
+  "@id" (printf "%s#organization" $siteURL)
+  "name" $orgName
+  "url" $siteURL
+}}
+
+{{ if .IsHome }}
+
+  {{ $website := dict
+    "@type" "WebSite"
+    "@id" (printf "%s#website" $siteURL)
+    "name" (.Site.Params.seo.homepageTitle | default (.Site.Title | emojify))
+    "url" $siteURL
+    "description" $description
+    "publisher" $org
+  }}
+  {{ $orgFull := merge $org (dict "description" $description) }}
+  {{ $schema := dict "@context" "https://schema.org" "@graph" (slice $website $orgFull) }}
+  {{ printf "<script type=\"application/ld+json\">%s</script>" ($schema | jsonify) | safeHTML }}
+
+{{ else if .IsPage }}
+
+  {{ $schemaType := "Article" }}
+  {{ if .Params.pdf_url }}{{ $schemaType = "Book" }}{{ end }}
+
+  {{ $authorName := .Params.author | default "Ron G. Christian" }}
+  {{ $schema := dict
+    "@context" "https://schema.org"
+    "@type" $schemaType
+    "name" (.Title | plainify | emojify)
+    "headline" (.Title | plainify | emojify)
+    "url" .Permalink
+    "author" (dict "@type" "Person" "name" $authorName)
+    "publisher" $org
+  }}
+  {{ with $description }}
+    {{ $schema = merge $schema (dict "description" .) }}
+  {{ end }}
+  {{ with .Date }}
+    {{ $schema = merge $schema (dict "datePublished" (.Format "2006-01-02")) }}
+  {{ end }}
+  {{ with .Lastmod }}
+    {{ $schema = merge $schema (dict "dateModified" (.Format "2006-01-02")) }}
+  {{ end }}
+  {{ with .Params.pdf_url }}
+    {{ $schema = merge $schema (dict "sameAs" .) }}
+  {{ end }}
+  {{ with .Params.tags }}
+    {{ $schema = merge $schema (dict "keywords" (delimit . ", ")) }}
+  {{ end }}
+  {{ printf "<script type=\"application/ld+json\">%s</script>" ($schema | jsonify) | safeHTML }}
+
+{{ else if .IsSection }}
+
+  {{ $schema := dict
+    "@context" "https://schema.org"
+    "@type" "CollectionPage"
+    "name" (.Title | plainify | emojify)
+    "url" .Permalink
+    "publisher" $org
+  }}
+  {{ with $description }}
+    {{ $schema = merge $schema (dict "description" .) }}
+  {{ end }}
+  {{ printf "<script type=\"application/ld+json\">%s</script>" ($schema | jsonify) | safeHTML }}
+
+{{ end }}
